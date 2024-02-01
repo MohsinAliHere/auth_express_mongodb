@@ -1,0 +1,46 @@
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# Ignore build directories
+target/
+bin/
+build/
+dist/
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore configuration files
+*.config
+*.properties
+
+# Ignore dependency management files
+node_modules/
+vendor/
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore sensitive or private information
+secrets.yml
+passwords.txt
