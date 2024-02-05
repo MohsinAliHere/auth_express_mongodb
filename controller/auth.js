@@ -1,4 +1,4 @@
-const { createToken } = require("../common/jwtPassword");
+const { createToken } = require("../common/jwt");
 const Auth_Schema = require("../model/auth");
 const bcrypt = require("bcrypt");
 
